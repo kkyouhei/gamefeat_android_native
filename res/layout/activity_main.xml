@@ -1,0 +1,133 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+
+    <Button
+        android:id="@+id/gf_wall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="84dp"
+        android:text="GF ウォール起動" />
+
+    <Button
+        android:id="@+id/load_popup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gf_wall"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="84dp"
+        android:text="全画面起動" />
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/load_popup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="84dp"
+        android:text="次のViewへ" />
+
+    <Button
+        android:id="@+id/btn_custom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_next"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="84dp"
+        android:text="カスタム版広告へ" />
+    <Button
+        android:id="@+id/btn_invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_custom"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="84dp"
+        android:text="アイコンを非表示" />
+       <Button
+        android:id="@+id/btn_visible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_invisible"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="84dp"
+        android:text="アイコンを表示" /> 
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_visible"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" >
+
+        <view
+            android:id="@+id/gf_icon1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            class="jp.basicinc.gamefeat.android.sdk.view.GameFeatIconView" />
+
+        <view
+            android:id="@+id/gf_icon2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            class="jp.basicinc.gamefeat.android.sdk.view.GameFeatIconView" />
+
+        <view
+            android:id="@+id/gf_icon3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            class="jp.basicinc.gamefeat.android.sdk.view.GameFeatIconView" />
+
+        <view
+            android:id="@+id/gf_icon4"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            class="jp.basicinc.gamefeat.android.sdk.view.GameFeatIconView" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp" >
+
+        <view
+            android:id="@+id/myCell1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            class="jp.maru.mrd.IconCell" />
+
+        <view
+            android:id="@+id/myCell2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            class="jp.maru.mrd.IconCell" />
+
+        <view
+            android:id="@+id/myCell3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            class="jp.maru.mrd.IconCell" />
+
+        <view
+            android:id="@+id/myCell4"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            class="jp.maru.mrd.IconCell" />
+    </LinearLayout>
+
+</RelativeLayout>
