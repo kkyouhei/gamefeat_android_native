@@ -18,7 +18,7 @@
     	
     	<meta-data android:name="gamefeat_site_id" android:value="サイトID" />
     	<activity
-			android:name="jp.basicinc.gamefvat.android.sdk.view.GameFeatAppActivity"
+			android:name="jp.basicinc.gamefeat.android.sdk.view.GameFeatAppActivity"
 			android:configChanges="orientation|keyboardHidden"
 			android:label="GameFeat" >
 		</activity>
