@@ -1,13 +1,13 @@
 gamefeat_android_native
 =======================
 
-#GAMEFEATの導入サンプル
+##GAMEFEATの導入サンプル
 
-##対応バージョン
+###対応バージョン
 
 ・GAMEFEAT SDK v3.3.0
 
-##動作方法
+###動作方法
 
 
 1. eclipseにプロジェクトをインポート
