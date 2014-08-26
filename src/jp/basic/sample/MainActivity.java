@@ -60,6 +60,10 @@ public class MainActivity extends Activity {
 					@Override
 					public void onClickClosed() {
 					}
+
+					@Override
+					public void onDismiss() {
+					}
 				});
 			}
 		});
